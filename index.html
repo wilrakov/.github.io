@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NoNode Network</title>
+    <script type="module" crossorigin src="/assets/index-YHgwRwdS.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DiNRhfUp.css">
+  </head>
+  <body>
+    <!-- Container principal -->
+    <div class="scroller">
+      <!-- Panel 1, les conversations et les contacts -->
+      <section class="panel" id="one">
+        <div class="mother">
+          <!-- Contacts -->
+          <div class="child" id="contacts" style="background-color: var(--primary);">
+            <h1>Contacts</h1>
+            <a href="#two"><i class="bi bi-layout-text-window-reverse"></i></a><br>
+            <a href="#second">Go to the conversations</a>
+          </div>
+
+          <!-- Conversations -->
+          <div class="child" id="second">
+            <h1>Conversations</h1>
+            <a href="#contacts">Go to the contacts</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Panel 2, le feed principalement je pense -->
+      <section class="panel" id="two">
+        <h1>Feed</h1>
+        <a href="#three"><i class="bi bi-person-square"></i></a>
+      </section>
+
+      <!-- Panel 3, Les options du compte bien évidemment -->
+      <section class="panel" id="three">
+        <h1>Account</h1>
+        <a href="#one"><i class="bi bi-chat-square-text-fill"></i></a>
+      </section>
+    </div>
+
+    <!-- Barre de navigation -->
+    <div class="navbar">
+      <a href="#one"><i class="bi bi-chat-square-text-fill"></i></a>
+      <a href="#two"><i class="bi bi-layout-text-window-reverse"></i></a>
+      <a href="#three"><i class="bi bi-person-square"></i></a>
+    </div>
+  </body>
+</html>
